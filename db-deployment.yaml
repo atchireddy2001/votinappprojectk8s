@@ -6,12 +6,12 @@ metadata:
   name: dbappdeploy
   labels:
     app: db
-    
+
 spec:
   replicas: 2
 
   selector:
-    matchlabels:
+    matchLabels:
       app: db
     
   template:
