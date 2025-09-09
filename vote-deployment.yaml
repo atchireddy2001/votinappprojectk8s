@@ -2,7 +2,7 @@ apiVersion: apps/v1
 
 kind: Deployment
 
-metadate: 
+metadata: 
   name: votingappdeploy
   labels:
     app: vote
